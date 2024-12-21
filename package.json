@@ -1,0 +1,15 @@
+{
+  "name": "cache-invalidation",
+  "version": "1.0.0",
+  "description": "test repo for event based async-cache-dedupe cache invalidation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-cache-dedupe": "^2.2.0"
+  }
+}
