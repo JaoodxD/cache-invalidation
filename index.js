@@ -27,7 +27,7 @@ const test = async (min, max) => {
 }
 
 const invdalidate = async (min, max) =>
-  cache.invalidate('getRandomNumber', `${min}-${max}`)
+  await cache.invalidate('getRandomNumber', `${min}-${max}`)
 
 await test(1, 100)
 await test(1, 100)
